@@ -1,0 +1,266 @@
+*{
+    font-family: 'Rajdhani';
+}
+
+h6 {
+    color: darkred;
+}
+
+/* header */
+
+
+h1 {
+    color: darkred;
+    text-transform: uppercase;
+    font-size: 100px;           
+    position: absolute;
+    bottom:50%;
+    left: 38%;
+    font-family: 'Rajdhani';
+    letter-spacing: 30px;
+}
+
+.bg-header {
+    margin:none;
+    border:none;
+    padding: none;
+}
+
+#matterhorn {
+    position: relative;
+    margin: none;
+    padding: none;
+    border: none;
+    
+}
+
+#mountains {
+    position: absolute;
+    bottom: 0px;
+
+}
+
+#title-pos {
+    display: flex;
+    align-items: center;
+   
+}
+
+.linear-grad {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.683));
+    position: absolute;
+    top: 0px;
+}
+
+
+/* quote & icons */
+
+.h2-text {
+    font-weight: lighter;
+    font-size: large;
+    font-family: 'Rajdhani'
+}
+
+i{
+    color: darkred;
+}
+
+#quote-first {
+    width: 300px;
+    height: 300px;
+    margin: none;
+    padding: 30px;
+}
+
+
+
+ /* Our team and our other team */ 
+
+ .position-custom {
+     align-items: center;
+ }
+
+ .spacing-custom {
+     padding: 50px;
+ }
+
+ .spacing-custom2 {
+    padding: 100px;
+}
+
+.spacing-custom3 {
+    padding: 50px;
+    padding-bottom: 200px;
+}
+
+.img-custom{
+    height:200px;
+    width:200px;
+    padding:10px;
+    border:2px solid darkred;
+    margin: 10px;
+}
+.img-custom2{
+    height:300px;
+    width:300px;
+    padding:10px;
+    border:2px solid darkred;
+    margin: 10px;
+}
+
+.h2-custom{
+    color:darkred;
+}
+
+.bg-custom2 {
+    background-image: url(./media/other.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 100%;
+
+}
+
+.ourteam-h {
+    color: darkred;
+    font-family: 'Rajdhani';
+    font-size: 50px;
+}
+.div-border {
+    border-radius: 90%;
+    border-color: darkred;
+    border-width: 20px;
+}
+
+.button {
+    background-color: darkred;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 40px;
+    border: none;
+}
+
+.button-cont {
+    width: 400px;
+    height: 400px;
+    background-image: url('media/trees2.png');
+    background-color: rgb(245, 245, 245);
+}
+
+.bg-icons {
+    background-color: rgb(245, 245, 245)
+}
+
+.bg-quote {
+    background-color: rgb(245, 245, 245)
+}
+
+.p-txt {
+    text-align: right;
+}
+
+/* timeline */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: darkred;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid darkred;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+.bg-timeline  {
+    background-image: url('media/single.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.h2-timeline {
+    color: darkred;
+    font-size: xx-large;
+}
+
+.h-timeline {
+    color: darkred;
+    font-weight: light;
+
+}
+
+.ourteam-img {
+    border-radius: 50%;
+}
+
+
+/* footer */
+
+.ft-custom {
+    background-color: darkred;
+    color: white;   
+    font-family:'Rajdhani';
+    padding: 40px;
+}
+
+.ft-custom a{
+    text-decoration: none;
+    color:white;
+}
+
+
+/* FUCKING BASTARD LINE */
+
+
+.line {
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid darkred; 
+    position:absolute; 
+    left: 47%;
+    bottom: 1%;
+    background-color: white;
+}
+
+.line2::before {
+    content:'';
+    display: inline-block;
+    width: 40px;
+    height:5px;
+    background-color: darkred;
+}
+.line2::after {
+    content:'';
+    display: inline-block;
+    width:40px;
+    height:5px;
+    background-color: darkred;
+    align-content: center;
+}
+
+
+
