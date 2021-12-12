@@ -6,6 +6,23 @@ h6 {
     color: darkred;
 }
 
+
+/* header 2nd try */
+
+.matterhorn {
+    background-image: linear-gradient(to bottom,white, 15%, rgba(255, 255, 255, 0.644), rgba(255, 255, 255, 0.082), transparent), url(./media/switzerland-862870_1920.jpg);
+    position: relative; 
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: 40% 40%;
+}
+
+.mountains {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+
 /* header */
 
 
@@ -46,11 +63,7 @@ h1 {
    
 }
 
-.linear-grad {
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.683));
-    position: absolute;
-    top: 0px;
-}
+
 
 
 /* quote & icons */
@@ -91,6 +104,10 @@ i{
 .spacing-custom3 {
     padding: 50px;
     padding-bottom: 200px;
+}
+
+.spacing-custom4 {
+    padding-bottom: 50px;
 }
 
 .img-custom{
