@@ -1,12 +1,9 @@
-stages:
-  - deploy
-deploy:
+image: node:latest
+ 
+pages:
+  stage: deploy
   script:
-    — mkdir .public
-    — cp -r * .public
-    — mv .public public
-artifacts:
+    - echo publishing...
+  artifacts:
     paths:
-      — public
-only:
- — main
+    - public
